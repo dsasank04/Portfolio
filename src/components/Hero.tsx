@@ -37,9 +37,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            A Computer Science student with strong coding skills and experience in full-stack development. 
-            Eager to apply technical expertise in software engineering and data structures to create efficient, 
-            scalable solutions.
+            A Computer Science student with strong coding skills and training in full-stack development, seeking opportunities to contribute to projects while continuously expanding knowledge in various technologies. Eager to apply knowledge in software engineering, data structures, and algorithms to create efficient, scalable solutions.
           </motion.p>
 
           <motion.div
