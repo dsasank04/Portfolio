@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin } from 'lucide-react';
-import React from 'react';
+import { Github, Linkedin, FileText } from 'lucide-react';
+import React from 'react'
 
 export default function Hero() {
   return (
@@ -14,7 +14,7 @@ export default function Hero() {
         >
           <div>
             <motion.h1 
-              className="text-5xl md:text-7xl font-bold mb-4"
+              className="text-4xl md:text-7xl font-bold mb-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
@@ -22,26 +22,26 @@ export default function Hero() {
               Hi, I'm D V S V Sasank Sarma
             </motion.h1>
             <motion.h2 
-              className="text-2xl md:text-3xl text-gray-300"
+              className="text-2xl md:text-2xl text-gray-300"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              Software Developer
+              Aspiring Software Engineer | MERN Stack Developer | DSA Enthusiast | Open to Opportunities 
             </motion.h2>
           </div>
 
           <motion.p
-            className="text-xl text-gray-300 max-w-2xl"
+            className="text-xl text-gray-300 max-w-4xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            A Computer Science student with strong coding skills and training in full-stack development, seeking opportunities to contribute to projects while continuously expanding knowledge in various technologies. Eager to apply knowledge in software engineering, data structures, and algorithms to create efficient, scalable solutions.
+            Final-year Computer Science student with strong programming fundamentals and academic project work in full-stack web development and machine learning. Proficient in Java and MERN Stack, with a solid understanding of data structures, algorithms, and software engineering principles. Passionate about learning technologies and contributing to meaningful projects through internships or entry-level opportunities in software development.
           </motion.p>
 
           <motion.div
-            className="flex space-x-6"
+            className="flex items-center space-x-6"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
@@ -51,6 +51,15 @@ export default function Hero() {
             </a>
             <a href="https://www.linkedin.com/in/sasank-sarma-dharmavarapu/" className="hover:text-blue-400 transition-colors" target="_blank" rel="noopener noreferrer">
               <Linkedin size={24} />
+            </a>
+            <a 
+              href="https://drive.google.com/file/d/1eTfAcTa5mOReENu9mawCLC-wy75ekXci/view?usp=sharing"
+              className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FileText size={20} />
+              <span>Resume</span>
             </a>
           </motion.div>
         </motion.div>
